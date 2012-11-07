@@ -1,0 +1,11 @@
+ <resources>
+
+    <string name="app_name">คู่มือการใช้ Android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_update">Update</string>
+    <string name="title_activity_main">คู่มือการใช้ Android</string>
+    <string name="menu_share">Share...</string>
+    <string name="text_share_subject">คู่มือการใช้ Android</string>
+    <string name="text_share_body">คู่มือการใช้ Android</string>
+
+</resources>
