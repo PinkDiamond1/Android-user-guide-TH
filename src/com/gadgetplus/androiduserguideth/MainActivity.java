@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
 		 
 		// load admob
 		// Create the adView
-		adView = new AdView(this, AdSize.BANNER, "a15099c648a3f7d");
+		adView = new AdView(this, AdSize.BANNER, "a1509a88683669a");
 		// Lookup your LinearLayout assuming it’s been given
 		// the attribute android:id="@+id/mainLayout"
 		LinearLayout layout = (LinearLayout) findViewById(R.id.mainLayout);
@@ -173,10 +173,10 @@ public class MainActivity extends Activity {
 
 				OutputStream output = new FileOutputStream(Environment
 						.getExternalStorageDirectory().getPath()
-						+ "/playlist.xml");
+						+ "/androiduserguideth.xml");
 
 				Log.d("FILE", Environment.getExternalStorageDirectory()
-						.getPath() + "/playlist.xml");
+						.getPath() + "/androiduserguideth.xml");
 
 				byte data[] = new byte[1024];
 
@@ -240,7 +240,7 @@ public class MainActivity extends Activity {
 		try {
 
 			File fXmlFile = new File(Environment.getExternalStorageDirectory()
-					.getPath() + "/playlist.xml");
+					.getPath() + "/androiduserguideth.xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
 					.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
